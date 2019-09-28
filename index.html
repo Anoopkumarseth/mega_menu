@@ -1,0 +1,632 @@
+<!DOCTYPE html> 
+<html>
+	
+<head>
+		<title>gyanniti Mega Menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/gyanniti_mega_menu.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">		
+		<!--[if lt IE 10]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="js/jquery.placeholder.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+		<div class="page">
+			<h1>Mega Menu | Pure HTML & CSS3 </h1>
+			
+			<!-- mega menu -->
+			<ul id="gyanniti_mega_menu" class="gyanniti_mega_menu">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- about -->
+				<li class="gyanniti_dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="gyanniti_dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="gyanniti_dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="gyanniti_dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="gyanniti_dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="gyanniti_dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+				
+				<!-- pin or unpin -->
+				<li class="right">
+					<a href="#" onclick="getElementById('gyanniti_mega_menu').className = (getElementById('gyanniti_mega_menu').className == 'gyanniti_mega_menu' ? 'gyanniti_mega_menu gyanniti_mega_menu-fixed' : 'gyanniti_mega_menu'); return false;"><i class="icon-pushpin"></i>Pin/Unpin</a>
+				</li>
+				<!--/ pin or unpin -->
+			</ul>
+			<!-- mega menu -->
+			<div class="separator"></div>
+			<hr>
+			<div class="separator"></div>
+			
+			
+			
+			<!-- collapsable mega menu -->
+			<ul id="gyanniti_mega_menu" class="gyanniti_mega_menu gyanniti_mega_menu-collapsable">		
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- opener (requiered) -->
+				<li class="opener">
+					<a href="#"><i class="icon-reorder"></i>Menu</a>
+				</li>
+				<!--/ opener -->
+				
+				<!-- about -->
+				<li class="gyanniti_dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="gyanniti_dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="gyanniti_dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="gyanniti_dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="gyanniti_dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="gyanniti_dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+			</ul>
+			<!-- collapsable mega menu -->
+			<div class="separator"></div>
+			<hr>
+			<div class="separator"></div>
+			
+			
+			<!-- mega menu with forms -->
+			<ul class="gyanniti_mega_menu">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- login -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-user"></i>Login</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter your email">
+							<input type="password" placeholder="Enter your password">
+							<button type="submit">Submit</button>
+							<a href="#">Forgot password?</a>
+						</form>
+					</div>
+				</li>
+ 				<!--/ login -->
+				
+				<!-- registration -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-key"></i>Registration</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter your email">
+							<input type="password" placeholder="Enter your password">
+							<input type="password" placeholder="Confirm your password">
+							<button type="submit">Submit</button>
+						</form>
+					</div>
+				</li>
+ 				<!--/ registration -->
+				
+				<!-- contacts -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-envelope"></i>Drop me a line</a><b></b>
+					<div class="grid-container6">
+						<form action="#">
+							<input type="text" placeholder="Enter your name">
+							<input type="text" placeholder="Enter your email">
+							<textarea cols="1" rows="1" placeholder="Enter your message"></textarea>
+							<button type="submit">Submit</button>
+						</form>
+					</div>
+				</li>
+				<!--/ contacts -->
+				
+ 				<!-- search -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-search"></i>Search</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter keywords and press enter">
+						</form>
+					</div>
+ 				</li>
+ 				<!--/ search -->
+			</ul>
+			<!--/ mega menu with forms -->			
+			<div class="separator"></div>
+			<hr>
+			<div class="separator"></div>
+			
+			<!-- mega menu with grid system -->
+			<ul class="gyanniti_mega_menu">
+				<li class="alpha gyanniti_dropdown">
+					<a href="#">Six</a>
+					<b></b>
+					<div class="grid-container12">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="gyanniti_dropdown">
+					<a href="#">Five</a>
+					<b></b>
+					<div class="grid-container10">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="gyanniti_dropdown">
+					<a href="#">Four</a>
+					<b></b>
+					<div class="grid-container8">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="gyanniti_dropdown">
+					<a href="#">Three</a>
+					<b></b>
+					<div class="grid-container6">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="gyanniti_dropdown">
+					<a href="#">Two</a>
+					<b></b>
+					<div class="grid-container4">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="gyanniti_dropdown">
+					<a href="#">One</a>
+					<b></b>
+					<div class="grid-container2">
+						<ul>
+							<li><a href="#">First element</a></li>
+							<li><a href="#">Second element</a></li>
+							<li><a href="#">Third element</a></li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="gyanniti_dropdown right">
+					<a href="#">Combination</a>
+					<b></b>
+					<div class="grid-container12">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column5">
+							<ul>
+								<li><a href="#">Extra large first element with large amount of text</a></li>
+								<li><a href="#">Extra large second element with large amount of text</a></li>
+								<li><a href="#">Extra large third element with large amount of text</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column3">
+							<ul>
+								<li><a href="#">First element with some text</a></li>
+								<li><a href="#">Second element with some text</a></li>
+								<li><a href="#">Third element with some text</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!--/ mega menu with grid system -->
+			<div class="separator"></div>		
+			<hr>
+			<div class="separator"></div>
+			
+			<!-- mega menu -->
+			<ul id="gyanniti_mega_menu" class="gyanniti_mega_menu">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- about -->
+				<li class="gyanniti_dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="gyanniti_dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="gyanniti_dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="gyanniti_dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="gyanniti_dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="gyanniti_dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right gyanniti_dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+			</ul>
+			<!-- mega menu -->
+			
+			
+			
+			<div class="separator"></div>
+			<hr>
+			<div class="separator"></div>
+		</div>
+	</body>
+
+
+</html>
